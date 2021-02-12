@@ -60,10 +60,10 @@
 }
 
 .link-dark {
-  color: #212529;
+  color: #343a40;
 }
 .link-dark:hover, .link-dark:focus {
-  color: #1a1e21;
+  color: #2a2e33;
 }
 
 .ratio {
@@ -449,7 +449,7 @@
 }
 
 .border-dark {
-  border-color: #212529 !important;
+  border-color: #343a40 !important;
 }
 
 .border-white {
@@ -1235,7 +1235,7 @@
 }
 
 .text-dark {
-  color: #212529 !important;
+  color: #343a40 !important;
 }
 
 .text-white {
@@ -1243,7 +1243,7 @@
 }
 
 .text-body {
-  color: #212529 !important;
+  color: #f8f9fa !important;
 }
 
 .text-muted {
@@ -1307,11 +1307,11 @@
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #343a40 !important;
 }
 
 .bg-body {
-  background-color: #fff !important;
+  background-color: #334 !important;
 }
 
 .bg-white {

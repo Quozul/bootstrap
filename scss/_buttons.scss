@@ -16,6 +16,8 @@
   user-select: none;
   background-color: transparent;
   border: $btn-border-width solid transparent;
+  --padding-y: #{$btn-padding-y};
+  --shadow-size: calc((var(--font-size) + var(--padding-y)) * -2);
   @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-border-radius);
   @include transition($btn-transition);
 
