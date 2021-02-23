@@ -18,12 +18,12 @@
   $disabled-color: color-contrast($disabled-background)
 ) {
   color: $color;
-  background-color: lighten($background, 25%);
-  box-shadow: inset 0 -1px 0 $background;
+  background-color: lighten($background, 15%);
+  box-shadow: inset 0 -1px 0 $hover-background;
 
   &:hover {
     color: $hover-color;
-    box-shadow: inset 0 var(--shadow-size) 0 $background;
+    box-shadow: inset 0 var(--shadow-size) 0 $hover-background;
   }
 
   .btn-check:focus + &,
@@ -33,7 +33,7 @@
     
     &:hover {
       color: $hover-color;
-      box-shadow: inset 0 var(--shadow-size) 0 $background, 0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), .5);
+      box-shadow: inset 0 var(--shadow-size) 0 $hover-background, 0 0 0 $btn-focus-width rgba(mix($color, $border, 15%), .5);
     }
   }
 
